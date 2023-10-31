@@ -17,20 +17,11 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    #gem 'mini_racer'
+    gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'github-pages'
-
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
-
-source 'https://rubygems.org'
-
-gem 'github-pages', group: :jekyll_plugins
-
-# Other gems specific to your project
-
